@@ -17,6 +17,8 @@ public class RectangleTester2
       Rectangle r3 = new Rectangle(0, 5, 5, 5);
       
       Measurer rm = new Measurer()
+      //The following code is an anonymous class that implements the 
+      // Measurer interface. 
      {
          public double measure(Object anObject)
          {
