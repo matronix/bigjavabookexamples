@@ -43,7 +43,7 @@ public class DataSet
       Gets the largest of the added data.
       @return the maximum or 0 if no data has been added
    */
-   protected Object getMaximum()
+   public Object getMaximum()
    {
       return maximum;
    }
